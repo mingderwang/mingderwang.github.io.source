@@ -1,0 +1,58 @@
+# Site wide configuration
+
+title:            Log4資料分析公司
+locale:           en_US
+#url:              //localhost:4000
+url:              //www.log7.info
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Log4資料分析
+  avatar: bio-photo-2.png
+  bio: "提供系統資料收集監控與分析工具"
+  email: ming@log4analytics.coom
+  disqus-shortname:
+  twitter: mingderwang
+  facebook: log4analytics
+  google:
+    plus: mingderwang
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: mingder78
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
