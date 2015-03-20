@@ -25,6 +25,7 @@ image:
 ### Big Data - 資料收集
 
 * Logstash-forwarder
+* fluentd
 
 ### 雲端服務 - 架構規劃
 

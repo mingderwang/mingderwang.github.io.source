@@ -29,7 +29,7 @@ kramdown:
 owner:
   name: Log4資料分析
   avatar: bio-photo-2.png
-  bio: "提供系統自動部署,資料收集監控與分析工具"
+  bio: "提供系統自動部署,資料收集,以及監控與分析工具"
   email: ming@log4analytics.coom
   disqus-shortname:
   twitter: mingderwang
@@ -41,7 +41,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: mingder78
+  github: mingderwang
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username
