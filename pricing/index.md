@@ -6,7 +6,7 @@ modified: 2014-12-08 18:37
 comments: true
 image:
   feature: sample-image-2.jpg
-  credit: WeGraphics
+  credit: Stella Wang
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 

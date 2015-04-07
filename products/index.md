@@ -5,7 +5,7 @@ modified: 2015-03-19 17:52
 excerpt: "介紹各類軟體之安裝與設定."
 image:
   feature: sample-image-3.jpg
-  credit: WeGraphics
+  credit: Stella Wang
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
