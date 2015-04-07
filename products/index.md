@@ -34,17 +34,17 @@ image:
 
 ---
 
-## 如何使用 Chef 安裝 ELK
+## 如何使用 Chef 自動部署 ELK
 
 基本上 Chef 可以分有主機的 chef-repo 以及沒主機的 chef-solo 兩種, 我們建議公司採用 chef-repo
 方式來控管公司所有電腦軟體版本安裝和更新, 進而自動控管使用者帳號和權限部署。
 
-注意: 在安裝軟體前, 請先與我們業務聯絡, 並獲取CHEF伺服器免費帳號才能進行免費試用!
+**注意: 在安裝軟體前, 請先利用 email 與我們聯絡 <a href="mailto:support@log4analytics.com"> support@log4analytics.com </a> , 並獲取CHEF伺服器免費帳號才能進行免費試用!**
 
 ### -- 安裝
 
 第一, 我們先準備一台用來下 knife 指令的工作站, 這裡以ㄧ台裝好 Ubuntu 12.04 或 Mac OS X 筆電為例。
-請依照 https://downloads.chef.io/chef-dk/ 指示, 安裝好 ChefSDK, 並將其安裝目錄加至您 PATH
+請依照 <a href="https://downloads.chef.io/chef-dk/"> https://downloads.chef.io/chef-dk/ </a> 指示, 安裝好 ChefSDK, 並將其安裝目錄加至您 PATH
 路徑.
 
 ### -- 使用
