@@ -54,7 +54,7 @@ image:
 
 {% highlight Bash%}
 //產生一個新 repo 目錄, 叫 chef-repo
-chef generate repo chef-repo
+$ chef generate repo chef-repo
 {% endhighlight %}
 
 第二, 自動安裝 chef-client 於 node1 主機
