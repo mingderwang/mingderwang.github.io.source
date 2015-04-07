@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-MAIN_DIR=/Users/mwang/src/zone/61/log4analytics.com/minimal-mistakes/
-SRC_DIR=/Users/mwang/src/zone/61/log4analytics.com/minimal-mistakes/_site
+MAIN_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io.source
+SRC_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io.source/_site
 DES_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io
 
 echo '----------'
