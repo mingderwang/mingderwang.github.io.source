@@ -55,7 +55,13 @@ image:
 chef generate repo chef-repo
 {% endhighlight %}
 
-第二, 我們找一台本工作站可以 ssh 的到的電腦, 這裡假設它叫 "node1", 來自動配置 Elasticsearch.
+第二, 自動安裝 chef-client 於 node1 主機
+
+{% highlight Bash%}
+$ knife bootstrap node1
+{% endhighlight %}
+
+第三, 我們找一台本工作站可以 ssh 的到的電腦, 這裡假設它叫 "node1", 來自動配置 Elasticsearch.
 
 {% highlight Bash%}
 cd chef-repo
@@ -88,20 +94,31 @@ cat > node1.json <<EOL
 EOL
 {% endhighlight %}
 
+以及利用如下指令, 將 node1 的 runlist 更新到 chef server 上
 
+{% highlight Bash%}
+$ knife node from file node1.json
+{% endhighlight %}
 
-### -- 技巧
+最後, 到 node1 主機上, 手動更新 run list, 就會自動安裝 Elasticsearch, Logstash, 以及 Kibana
+
+{% highlight Bash%}
+$ chef-client
+{% endhighlight %}
 
 ---
 
+### -- 技巧
 
-
-
-### 系統資料收集流程
+1. 這裡還包含安裝 monit, 是利用 monit 來確保 Elasticsearch 的不停頓運轉。
 
 ---
 
 ### 客製化服務
+
+* 我們可以幫客戶製作客製化 cookbooks
+* 我們可以規劃其他軟體自動化部屬
+* 有問題請寄電子郵件到: <a href="mailto:support@log4analytics.com">support@log4analytics.com
 
 ---
 
