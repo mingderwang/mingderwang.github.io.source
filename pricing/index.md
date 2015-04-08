@@ -2,10 +2,10 @@
 layout: page
 title: 服務價格
 tags: [pricing, log4analytics]
-modified: 2014-12-08 18:37
+modified: 2015-04-08 15:46
 comments: true
 image:
-  feature: sample-image-2.jpg
+  feature: image-2.jpg
   credit: Stella Wang
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
@@ -18,7 +18,7 @@ image:
 
 | Email 支援    | 雲端伺服 ＋ 線上支援    | 安裝主機 + 電話支援 |
 |:---------|:-------:|--------:|
-| 免費     | NT$ 3,000- | 電洽(02)2778-8549   |
+| 免費     | NT$ 3,000- | 電洽 0910-006-662   |
 | (三個月) | (每台電腦/每個月)   | (無電腦上限)   |
 |----
 |=====
@@ -30,7 +30,7 @@ image:
 
 | Email 支援   | 雲端伺服 ＋ 線上支援  | 安裝主機 + 電話支援  |
 |:---------|:-------:|--------:|
-| 免費     | NT$ 2,000- | 電洽(02)2778-8549   |
+| 免費     | NT$ 2,000- | 電洽 0910-006-662   |
 | (三個月) | (每台電腦/每個月)   | (無電腦上限)   |
 |----
 |=====

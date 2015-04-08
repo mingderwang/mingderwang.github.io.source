@@ -4,7 +4,7 @@ title: 產品介紹
 modified: 2015-03-19 17:52
 excerpt: "介紹各類軟體之安裝與設定."
 image:
-  feature: sample-image-3.jpg
+  feature: image-3.jpg
   credit: Stella Wang
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
@@ -61,6 +61,8 @@ $ chef generate repo chef-repo
 
 {% highlight Bash%}
 $ knife bootstrap node1
+// 如果你不想用 root 帳號進入, 可以用有 sudo 權限的 user 帳號, 執行以下指令
+$ knife bootstrap node1 --ssh-user username --ssh-password "password" --sudo --use-sudo-password "password"
 {% endhighlight %}
 
 第三, 我們找一台本工作站可以 ssh 的到的電腦, 這裡假設它叫 "node1", 來自動配置 Elasticsearch.
@@ -96,23 +98,33 @@ cat > node1.json <<EOL
 EOL
 {% endhighlight %}
 
-以及利用如下指令, 將 node1 的 runlist 更新到 chef server 上
+以及利用如下指令, 將 node1 的 run list 更新到 chef server 上
 
 {% highlight Bash%}
 $ knife node from file node1.json
 {% endhighlight %}
 
-最後, 到 node1 主機上, 手動更新 run list, 就會自動安裝 Elasticsearch, Logstash, 以及 Kibana
+最後, 到 node1 主機上, 手動執行 chef-client, 本機就會依照最新 run list, 自動安裝 Elasticsearch, Logstash, 以及 Kibana
 
 {% highlight Bash%}
-$ chef-client
+$ sudo chef-client
 {% endhighlight %}
 
 ---
 
 ### -- 技巧
 
-1. 這裡還包含安裝 monit, 是利用 monit 來確保 Elasticsearch 的不停頓運轉。
+* 這裡還包含安裝 monit, 是利用 monit 來確保 Elasticsearch 的不停頓運轉。
+* 如果 monit 沒有自動 run 起來, 請在 /etc/monit/monitrc 裡增加以下幾行
+
+{% highlight Bash%}
+set httpd port 3737
+      use address 127.0.0.1  # only accept connection from localhost
+      allow 0.0.0.0/0.0.0.0
+{% endhighlight %}
+
+
+* 確定本機 port 9200 有開放. Elasticsearch 需要用 9200
 
 ---
 

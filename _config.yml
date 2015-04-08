@@ -2,8 +2,8 @@
 
 title:            Log4資料分析公司
 locale:           en_US
-#url:              //localhost:4000
-url:              //www.log4analytics.com
+url:              //localhost:4000
+#url:              //www.log4analytics.com
 
 
 # Jekyll configuration
@@ -28,7 +28,7 @@ kramdown:
 # Site owner
 owner:
   name: Log4資料分析
-  avatar: bio-photo.jpg
+  avatar: logo.jpg
   bio: "提供系統自動部署,資料收集,以及監控與分析工具"
   email: sales@log4analytics.com
   disqus-shortname:
