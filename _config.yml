@@ -2,8 +2,8 @@
 
 title:            Log4資料分析公司
 locale:           en_US
-url:              //localhost:4000
-#url:              //www.log4analytics.com
+#url:              //localhost:4000
+url:              //www.log4analytics.com
 
 
 # Jekyll configuration
