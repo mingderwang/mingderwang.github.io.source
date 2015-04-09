@@ -7,7 +7,7 @@ comments: true
 image:
   feature: image-4.jpg
   credit: Stella Wang
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  creditlink: http://designact.tw/
 ---
 
 桐立科技旗下 log4analytics.com 是一家以人工智慧研發為核心技術之資料分析協力廠商, 致力於提供中小企業最物美價廉之資料收集, 視覺化分析, 自動預警等服務.

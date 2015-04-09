@@ -5,5 +5,5 @@ tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: image-1.jpg
   credit: Stella Wang
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  creditlink: http://designact.tw/ 
 ---

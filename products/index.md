@@ -6,7 +6,7 @@ excerpt: "介紹各類軟體之安裝與設定."
 image:
   feature: image-3.jpg
   credit: Stella Wang
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  creditlink: http://designact.tw/
 ---
 
 <section id="table-of-contents" class="toc">
