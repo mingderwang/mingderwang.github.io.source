@@ -3,7 +3,7 @@ MAIN_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io.source
 SRC_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io.source/_site
 DES_DIR=/Users/mwang/src/zone/61/log4analytics.com/mingderwang.github.io
 
-jeykll build
+jekyll build
 echo '----------'
 echo $SRC_DIR
 echo '----------'
