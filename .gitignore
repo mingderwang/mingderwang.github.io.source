@@ -8,3 +8,4 @@ node_modules
 _asset_bundler_cache
 .ruby-version
 Gemfile.lock
+update_website.sh
