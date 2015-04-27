@@ -1,13 +1,14 @@
 ---
 layout: post
-title: 對抗駭客入侵, 預防勝於治療
-tagline: to prevent ssh brute force attacks
-tags: devops ssh iptable
+title: 對抗駭客入侵防範針對性攻擊, 預防勝於治療
+tagline: preventing cyber attacks
+tags: devops ssh iptable siem
 category: ming
 author: ming
 date: 2015-04-15 16:37
 ---
-[最近新聞](http://video.n.yam.com/20150415977398/%E5%A4%A7%E9%99%B8%E9%A7%AD%E5%AE%A2%E6%94%BB%E6%93%8A%E6%9F%AF%E8%BE%A6%E5%85%AC%E5%AE%A4%20%E5%81%87%E9%83%B5%E4%BB%B6%E9%A8%99%E4%BA%BA%E5%93%A1%E8%B3%87%E6%96%99) 有關駭客攻擊柯辦公室電腦, 每個公司或政府單位人人自危. 也許有些公司覺得公司電腦都有安裝
+[最近新聞](http://www.ithome.com.tw/news/95310) 有關駭客針對性攻擊柯辦公室電腦,
+每個公司或政府單位人人自危. 也許有些公司覺得公司電腦都有安裝
 防毒軟體, 應該不會有問題, 而忽略了近年來, 病毒軟體已經無法有效防止駭客入侵. 更多人以為
 已經買了很貴的防火牆應該不會有問題, 或是打從心裡就覺得沒人會攻擊您公司電腦. 這樣的想法更讓
 駭客趁虛而入. 所以有人戲稱, “世界上只有兩種人, 一種是發現自己電腦已經被駭客入侵, 另一種
