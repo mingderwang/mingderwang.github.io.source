@@ -15,7 +15,6 @@ date: 2015-04-27 14:02
 
 >
 
-
 什麼是[SIEM 軟體?](http://www.ithome.com.tw/node/77205) 這個連結引述 IThome
 已經介紹不少log管理及報表軟體, SIEM 就是 Security Information and Event Management.
 的縮寫. 簡單講就是利用事件(或所謂的系統的logs)的有效管理, 來解決資安的問題.

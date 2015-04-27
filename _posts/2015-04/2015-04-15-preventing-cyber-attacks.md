@@ -56,4 +56,4 @@ date: 2015-04-15 16:37
 
 >
 
-桐立科技, Log4Analytics 團隊
+桐立科技, Log4 Analytics 團隊
