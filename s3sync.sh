@@ -15,3 +15,4 @@ rcp -r $SRC_DIR/* $DES_DIR
 cd $DES_DIR
 rm *.sh
 s3cmd sync . s3://www.log4analytics.com
+s3cmd sync . s3://log4analytics.com
