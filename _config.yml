@@ -23,6 +23,12 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+# google 
+
+analytics :
+  provider : google 
+  google : 
+      tracking_id : 'UA-63701021-1'
 
 # Site owner
 owner:
