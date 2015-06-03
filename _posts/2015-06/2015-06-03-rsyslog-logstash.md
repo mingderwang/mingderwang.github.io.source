@@ -54,8 +54,10 @@ $template ls_json,"\{\%timestamp:::date-rfc3339,jsonf:@timestamp%,%source:::json
 *.*  @localhost:55514;ls_json
 {% endhighlight %}
 
+
 內容表示 rsyslog 會以 ls_json 定義的格式, 將資料送到本機 localhost 的 55514 port.
-本機在裝個 logstash 在 55514 port, 將內容轉送到 elasticsearch server 只要加一個 logstash
+本機在裝個 [logstash](https://www.elastic.co/products/logstash) 在 55514 port,
+將內容轉送到 [elasticsearch](https://www.elastic.co/products/elasticsearch) server 只要加一個 logstash
 設定如下:
 
 {% highlight Bash%}
