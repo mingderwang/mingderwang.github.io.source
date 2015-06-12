@@ -1,15 +1,15 @@
 # Site navigation links
 
-- title: 產品介紹
+- title: <產品介紹>
   url: /products/
 
-- title: 服務價格
+- title: <服務價格>
   url: /pricing/
 
-- title: 技術日誌
+- title: <技術部落格>
   url: /posts/
 
-- title: 關於我們
+- title: <關於我們>
   url: /about/
 
 - title: chef伺服器

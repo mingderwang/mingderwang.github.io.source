@@ -1,5 +1,5 @@
 ---
 layout: post-index
-title: 所有技術日誌
+title: <技術部落格>
 excerpt: ""
 ---

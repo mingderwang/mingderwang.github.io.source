@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 關於我們
+title: <關於我們>
 tags: [about, log4analytics]
 modified: 2015-03-19 17:26
 comments: true
