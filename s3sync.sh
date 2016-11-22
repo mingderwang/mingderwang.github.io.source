@@ -6,7 +6,7 @@ SRC_DIR=/Users/mingderwang/src/web/mingderwang.github.io.source/_site
 DES_DIR=/Users/mingderwang/src/web/www.log4analytics.com
 #/USERS/MWANG/SRC/ZONE/61/LOG4ANALYTICS.COM/WWW-LOG4ANALYTICS-COM
 
-jekyll build
+bundle exec jekyll build
 echo '----------'
 echo $SRC_DIR
 echo '----------'
