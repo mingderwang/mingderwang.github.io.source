@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: <產品介紹>
+  url: /products/
+
+- title: <服務價格>
+  url: /pricing/
+
+- title: <技術部落格>
+  url: /posts/
+
+- title: <關於我們>
+  url: /about/
+
+- title: chef伺服器
+  url: https://chef-server.log4analytics.com
