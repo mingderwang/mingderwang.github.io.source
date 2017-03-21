@@ -3,7 +3,7 @@
 title:            Log4 Analytics
 locale:           en_US
 #url:              //localhost:4000
-url:              //log4analytics.com
+url:              "https://swift-gnat.cloudvent.net"
 
 # Jekyll configuration
 
